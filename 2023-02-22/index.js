@@ -12,7 +12,6 @@ function index (s) {
       str += s[i];
     }
     max = Math.max(max, str.length);
-    console.log(str);
   }
   return max;
 }
